@@ -61,6 +61,31 @@ The system follows a server-client architecture, where the Node.js server handle
     ```bash
     cd frontend
     ```
+
+
+    
+## Routes
+
+
+### User Routes
+
+| Method | Endpoint             | Description              | 
+| ------ | ---------------------| ------------------------ | 
+| GET   | `/user/get`     |      Check the user present in database   |
+| POST   | `/user/post`        | Add the user in database  |
+| GET   | `/user/:id`       | Getting data of user by id        | 
+
+
+
+
+
+### Post Routes
+
+| Method | Endpoint             | Description              |
+| ------ | ---------------------| ------------------------ | 
+| POST   | `post//bulkadd`     | Add the Post data     |
+| GET   | `post/checkUserId/:userId`       | 	Check the user post is available |
+
     
 
 
